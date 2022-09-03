@@ -1,10 +1,10 @@
-import matIV from "./lib/minMatrix";
+import matIV from "../../lib/minMatrix";
 
 // Shader
 import vertexSource from "./shaders/vertex.glsl";
 import fragmentSource from "./shaders/fragment.glsl";
 
-export class Canvas {
+export class Work022 {
   // プロパティ
   c: HTMLCanvasElement;
   gl: WebGLRenderingContext;
