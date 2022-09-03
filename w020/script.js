@@ -233,7 +233,7 @@ onload = function () {
         var ty = ry * irad;
         var tz = (rr * irad + orad) * Math.sin(tr);
         pos.push(tx, ty, tz);
-        var tc = hsva(360 / column ** ii, 1, 1, 1);
+        var tc = hsva((360 / column) * ii, 1, 1, 1);
         col.push(tc[0], tc[1], tc[2], tc[3]);
       }
     }
