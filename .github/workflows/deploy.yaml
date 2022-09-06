@@ -1,4 +1,5 @@
-name: Github Actions
+# reference: https://github.com/hbsnow-sandbox/gh-pages-actions-example/blob/main/.github/workflows/pages.yml
+name: Deploy site to Pages
 
 on:
   push:
